@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  5createreactapp:
+    image: 5createreactapp
+    build:
+      context: reactjs/5-createreactapp
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080

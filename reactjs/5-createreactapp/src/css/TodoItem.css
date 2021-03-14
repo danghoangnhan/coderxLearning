@@ -4,3 +4,6 @@
     font-size: 24px;
     color: rgb(167, 165, 165)
 }
+.TodoItem-done {
+    opacity: 0.3
+}
